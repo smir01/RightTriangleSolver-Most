@@ -37,7 +37,8 @@ print("Welcome to the right triangle solver!")
 
 
 print("Please enter three measurements from your triangle.")
-
+calcSideA = Double(readLine()!)!  //Example of how to read input from the console.  The ! symbol is required to ensure the
+                                  //right data type to the compiler.
 
 //Determine what type of measurements that you have been given. ie two sides and 1 angle, 3 sides, 2 angles and 1 side
 
